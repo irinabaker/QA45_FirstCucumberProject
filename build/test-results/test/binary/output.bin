@@ -1,0 +1,10 @@
+
+@positive
+m[1mScenario:[22m Login with correct data                   [90m# classpath:features/login.feature:4[39m
+�  [32mâœ”[39m [32m[1mGiven [22mUser launches Chrome Browser[39m              [90m# com.ilcarro.stepDefinitions.HomePageSteps.launch_Chrome_Browser()[39m
+�  [32mâœ”[39m [32m[1mWhen [22mUser opens ilcarro Home Page[39m               [90m# com.ilcarro.stepDefinitions.HomePageSteps.open_Home_Page()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser clicks on Login link[39m                   [90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Login_link()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser enters correct data[39m                    [90m# com.ilcarro.stepDefinitions.LoginSteps.enter_correct_data()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser clicks on Yalla button[39m                 [90m# com.ilcarro.stepDefinitions.LoginSteps.click_on_Yalla_button()[39m
+�  [32mâœ”[39m [32m[1mThen [22mUser verifies Success message is displayed[39m [90m# com.ilcarro.stepDefinitions.LoginSteps.verify_Success_message()[39m
+�  [32mâœ”[39m [32m[1mAnd [22mUser closes browser[39m                         [90m# com.ilcarro.stepDefinitions.LoginSteps.close_browser()[39m
